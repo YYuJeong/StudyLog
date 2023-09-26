@@ -10,3 +10,6 @@ def solution(board, moves):
                 if len(basket) > 1 and basket[-1] == basket[-2]:
                     answer += 2
                     basket = basket[:-2]
+                break
+
+    return answer
